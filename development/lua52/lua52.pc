@@ -21,7 +21,7 @@ exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include/lua/5.2
 
-Name: Lua53
+Name: Lua52
 Description: An Extensible Extension Language
 Version: ${R}
 Requires: 
