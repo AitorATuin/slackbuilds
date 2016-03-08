@@ -72,7 +72,7 @@ make linux install \
   CFLAGS="$SLKCFLAGS \$(MYCFLAGS) -DLUA_COMPAT_ALL -DLUA_USE_LINUX" \
   INSTALL_TOP=$PKG/usr \
   INSTALL_LIB=$PKG/usr/lib${LIBDIRSUFFIX} \
-  INSTALL_INC=$PKG/usr/include/lua53 \
+  INSTALL_INC=$PKG/usr/include/lua/5.3 \
   TO_BIN="lua5.3 luac5.3" \
   TO_LIB="liblua53.a" \
   INSTALL_CMOD=/usr/lib${LIBDIRSUFFIX}/lua/5.3

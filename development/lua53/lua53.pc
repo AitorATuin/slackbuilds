@@ -10,7 +10,7 @@ R=5.3.2
 # grep '^INSTALL_.*=' ../Makefile | sed 's/INSTALL_TOP/prefix/'
 prefix=/usr
 INSTALL_BIN=${prefix}/bin
-INSTALL_INC=${prefix}/include/lua53
+INSTALL_INC=${prefix}/include/lua/5.3
 INSTALL_LIB=${prefix}/lib
 INSTALL_MAN=${prefix}/man/man1
 INSTALL_LMOD=${prefix}/share/lua/${V}
@@ -19,7 +19,7 @@ INSTALL_CMOD=${prefix}/lib/lua/${V}
 # canonical vars
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-includedir=${prefix}/include/lua53
+includedir=${prefix}/include/lua/5.3
 
 Name: Lua53
 Description: An Extensible Extension Language
