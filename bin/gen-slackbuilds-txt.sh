@@ -31,6 +31,11 @@ for pkg_info in $(find . -name "*.info"); do
         error ${pkg_section} "Missing ${pkg_desc}"
         continue
     }
+    lines_in_desc=$(cat ${pkg_desc} | grep ${pkg_name} | wc -l)
+    [ ${lines_in_desc} -ne 11 ] && {
+        error ${pkg_section} "slack-desc must contain 11 lines in the description"
+        continue
+    }
     description=$(cat ${pkg_desc} | grep ${pkg_name} | head -1 |cut -d " " -f 3-)
     source ${pkg_info}
     [ "${PRGNAM}" != "${pkg_name}" ] && {
