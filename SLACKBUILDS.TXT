@@ -1,0 +1,28 @@
+SLACKBUILD NAME: cdk
+SLACKBUILD VERSION: 5.0_20160131
+SLACKBUILD SHORT DESCRIPTION: cdk (A library of curses widgets)
+
+SLACKBUILD NAME: lua51
+SLACKBUILD VERSION: 5.1.5
+SLACKBUILD SHORT DESCRIPTION: lua51 (a fast, light-weight, embeddable scripting language)
+
+SLACKBUILD NAME: luarocks53
+SLACKBUILD VERSION: 2.3.0
+SLACKBUILD SHORT DESCRIPTION: luarocks53 (lua modules management tool)
+
+SLACKBUILD NAME: luarocks52
+SLACKBUILD VERSION: 2.3.0
+SLACKBUILD SHORT DESCRIPTION: luarocks52 (lua modules management tool)
+
+SLACKBUILD NAME: lua52
+SLACKBUILD VERSION: 5.2.4
+SLACKBUILD SHORT DESCRIPTION: lua52 (a powerful, fast, light-weight, embeddable scripting language)
+
+SLACKBUILD NAME: lua53
+SLACKBUILD VERSION: 5.3.2
+SLACKBUILD SHORT DESCRIPTION: lua53 (a powerful, fast, light-weight, embeddable scripting language)
+
+SLACKBUILD NAME: dfc
+SLACKBUILD VERSION: 3.0.5
+SLACKBUILD SHORT DESCRIPTION: dfc (Displays file system space usage using graphs and colors)
+
