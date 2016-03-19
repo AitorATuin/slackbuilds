@@ -1,4 +1,4 @@
-PRGNAM="luarocks53"
+PRGNAM="luarocks52"
 VERSION="2.3.0"
 HOMEPAGE="http://www.luarocks.org/"
 DOWNLOAD="http://luarocks.org/releases/luarocks-2.3.0.tar.gz"

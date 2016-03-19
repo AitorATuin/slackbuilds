@@ -6,10 +6,11 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-luarocks52: LuaRocks (lua modules management tool)
-luarocks52:
-luarocks52: LuaRocks is a deployment and management system for Lua modules,
-luarocks52: with automatic dependency checking, with access to remote
-luarocks52: repositories and local rock source trees.
-luarocks52:
-luarocks52: http://www.luarocks.org/
+dfc: dfc (Displays file system space usage using graphs and colors)
+dfc:
+dfc: dfc displays file system space usage using graphs and colors. In some
+dfc: ways, it is a modernized version of df as it is able to use colors, draw
+dfc: graphs and export its output to different formats such as CSV or HTML.
+dfc:
+dfc: https://projects.gw-computing.net/projects/dfc
+l
