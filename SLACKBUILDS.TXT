@@ -10,6 +10,10 @@ SLACKBUILD NAME: luarocks53
 SLACKBUILD VERSION: 2.3.0
 SLACKBUILD SHORT DESCRIPTION: luarocks53 (lua modules management tool)
 
+SLACKBUILD NAME: luarocks51
+SLACKBUILD VERSION: 2.3.0
+SLACKBUILD SHORT DESCRIPTION: luarocks51 (lua modules management tool)
+
 SLACKBUILD NAME: luarocks52
 SLACKBUILD VERSION: 2.3.0
 SLACKBUILD SHORT DESCRIPTION: luarocks52 (lua modules management tool)
