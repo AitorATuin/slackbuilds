@@ -70,7 +70,7 @@ rm -rf $TMP/$PRGNAM
     tar xvf $CWD/$PRGNAM-$VERSION.tar.bz2
     cd $PRGNAM-$VERSION
 } || {
-    cp -r $CWD/$PRGNAM .
+    ln -s $CWD/neovim $PRGNAM
     cd $PRGNAM
     VERSION=`date +"%Y%m%d%H%M"`-`git log|head -1|awk -e '{print($2)}'`
 }
