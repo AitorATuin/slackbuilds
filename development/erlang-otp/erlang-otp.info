@@ -1,0 +1,12 @@
+PRGNAM="erlang-otp"
+VERSION="21.0"
+HOMEPAGE="http://www.erlang.org"
+DOWNLOAD="http://erlang.org/download/otp_src_21.0.tar.gz \
+          http://www.erlang.org/download/otp_doc_man_21.0.tar.gz"
+MD5SUM="350988f024f88e9839c3715b35e7e27a \
+        d4fa68c4615a32b05e73c58e84026a21"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES=""
+MAINTAINER="AitorATuin"
+EMAIL=""
