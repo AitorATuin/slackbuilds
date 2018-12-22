@@ -1,0 +1,20 @@
+cssselect2 is a straightforward implementation of CSS3 Selectors for markup
+documents (HTML, XML, etc.) that can be read by ElementTree-like parsers
+(including cElementTree, lxml, html5lib, etc.)
+
+Unlike cssselect, it does not translate selectors to XPath and therefore does
+not have all the correctness corner cases that are hard or impossible to fix in
+cssselect.
+
+Quick facts:
+
+    - Free software: BSD licensed
+    - Compatible with Python 2.7+ and 3.3+
+    - Latest documentation: http://cssselect2.readthedocs.io/
+    - Source, issues and pull requests on Github
+    - Releases on PyPI
+    - Install with pip install cssselect2
+
+To install python3 bindings run the slackbuild with PYTHON3=yes.
+
+  # PYTHON3=yes ./cssselect2.SlackBuild
