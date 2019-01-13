@@ -1,0 +1,80 @@
+diff -Nur lpeg-1.0.1_orig/lpcap.c lpeg-1.0.1/lpcap.c
+--- lpeg-1.0.1_orig/lpcap.c	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lpcap.c	2017-09-09 17:40:41.129312273 +0200
+@@ -3,8 +3,8 @@
+ ** Copyright 2007, Lua.org & PUC-Rio  (see 'lpeg.html' for license)
+ */
+ 
+-#include "lua.h"
+-#include "lauxlib.h"
++#include "lua/5.1/lua.h"
++#include "lua/5.1/lauxlib.h"
+ 
+ #include "lpcap.h"
+ #include "lptypes.h"
+diff -Nur lpeg-1.0.1_orig/lpcode.c lpeg-1.0.1/lpcode.c
+--- lpeg-1.0.1_orig/lpcode.c	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lpcode.c	2017-09-09 17:40:57.373313010 +0200
+@@ -6,8 +6,8 @@
+ #include <limits.h>
+ 
+ 
+-#include "lua.h"
+-#include "lauxlib.h"
++#include "lua/5.1/lua.h"
++#include "lua/5.1/lauxlib.h"
+ 
+ #include "lptypes.h"
+ #include "lpcode.h"
+diff -Nur lpeg-1.0.1_orig/lpcode.h lpeg-1.0.1/lpcode.h
+--- lpeg-1.0.1_orig/lpcode.h	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lpcode.h	2017-09-09 17:41:06.892313442 +0200
+@@ -5,7 +5,7 @@
+ #if !defined(lpcode_h)
+ #define lpcode_h
+ 
+-#include "lua.h"
++#include "lua/5.1/lua.h"
+ 
+ #include "lptypes.h"
+ #include "lptree.h"
+diff -Nur lpeg-1.0.1_orig/lptree.c lpeg-1.0.1/lptree.c
+--- lpeg-1.0.1_orig/lptree.c	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lptree.c	2017-09-09 17:41:20.798314073 +0200
+@@ -8,8 +8,8 @@
+ #include <string.h>
+ 
+ 
+-#include "lua.h"
+-#include "lauxlib.h"
++#include "lua/5.1/lua.h"
++#include "lua/5.1/lauxlib.h"
+ 
+ #include "lptypes.h"
+ #include "lpcap.h"
+diff -Nur lpeg-1.0.1_orig/lptypes.h lpeg-1.0.1/lptypes.h
+--- lpeg-1.0.1_orig/lptypes.h	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lptypes.h	2017-09-09 17:41:32.894314621 +0200
+@@ -16,7 +16,7 @@
+ #include <assert.h>
+ #include <limits.h>
+ 
+-#include "lua.h"
++#include "lua/5.1/lua.h"
+ 
+ 
+ #define VERSION         "1.0.1"
+diff -Nur lpeg-1.0.1_orig/lpvm.c lpeg-1.0.1/lpvm.c
+--- lpeg-1.0.1_orig/lpvm.c	2017-01-14 19:57:16.000000000 +0100
++++ lpeg-1.0.1/lpvm.c	2017-09-09 17:41:52.050315490 +0200
+@@ -7,8 +7,8 @@
+ #include <string.h>
+ 
+ 
+-#include "lua.h"
+-#include "lauxlib.h"
++#include "lua/5.1/lua.h"
++#include "lua/5.1/lauxlib.h"
+ 
+ #include "lpcap.h"
+ #include "lptypes.h"
