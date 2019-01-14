@@ -71,7 +71,7 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-cat $CWD/lua51_mpack.patch | patch -p1 || exit
+cat $CWD/lua53_mpack.patch | patch -p1 || exit
 
 gcc -O2 -fPIC -c lmpack.c -o lmpack.o
 gcc -shared -o mpack.so lmpack.o
